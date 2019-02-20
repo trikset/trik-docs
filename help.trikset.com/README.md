@@ -5,11 +5,10 @@
     In `bash`/`zsh` or `fish` shell it is like
     ```shell
         python3 -m virtualenv --clear -p python3  -v venv
-        source venv/bin/activate # source corresponding activate.XXX for your shell
-        python -m pip install --upgrade pip
-        pip install --upgrade sphinx
+        source venv/bin/activate # source corresponding activate.XXX for shell other than bash/zsh
+        pip install -Ur requirements.txt
     ```
 
 ## Windows
 
-    use Windows Subshell for Linux (WSL) or install Python 3.x and use `pip` to install fresh `sphinx` module. But using of virtual environment is strongly advised.  
+    Use Windows Subshell for Linux (WSL) or install Python 3.x and use `pip -Ur requirements.txt`, or use your favorite Python IDE to install requirements. But using of virtual environment is strongly advised.
