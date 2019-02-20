@@ -1,2 +1,4 @@
-sphinx_bootstrap_theme
+pip
 sphinx
+sphinx-autobuild
+sphinx_bootstrap_theme

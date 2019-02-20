@@ -1,0 +1,4 @@
+{
+    "restructuredtext.sphinxBuildPath": "sphinx-build",
+    "restructuredtext.confPath": "${workspaceFolder}/source"
+}
