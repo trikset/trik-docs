@@ -1,4 +1,6 @@
 pip
 sphinx
+sphinx-git
 sphinx-autobuild
+guzzle_sphinx_theme
 sphinx_bootstrap_theme

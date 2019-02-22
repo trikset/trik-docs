@@ -10,7 +10,7 @@ Welcome to TRIK's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+.. include:: revisions.rst
 
 Indices and tables
 ==================
