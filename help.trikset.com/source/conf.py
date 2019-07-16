@@ -53,13 +53,19 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 #html_theme = 'alabaster'
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+#html_theme = 'bootstrap'
+#html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_theme = 'p-main_theme'
+import os
+from PSphinxTheme import utils
+p, html_theme, needs_sphinx = utils.set_psphinxtheme(html_theme)
+html_theme_path = p
 
 master_doc = 'index'
